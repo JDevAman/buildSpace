@@ -350,3 +350,5 @@ out/
 # package-lock.json  # Uncomment if using npm
 # yarn.lock          # Uncomment if using yarn
 # pnpm-lock.yaml     # Keep if using pnpm
+.cursor\rules\nx-rules.mdc
+.github\instructions\nx.instructions.md
