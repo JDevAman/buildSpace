@@ -1,0 +1,32 @@
+[
+    {
+        "skill": "Frontend",
+        "value": 85,
+        "fullMark": 100,
+        "description": "JavaScript, TypeScript, React.js, Next.js, Angular, Three.js, Tailwind CSS, Redux Toolkit, React Query, Jest, RTL, Framer Motion, Vite"
+    },
+    {
+        "skill": "Backend",
+        "value": 80,
+        "fullMark": 100,
+        "description": "Java, Spring Boot, Node.js, NestJS, Express.js, Python, FastAPI, Flask, REST APIs, GraphQL, Prisma, Hibernate, JPA, JDBC, DBMS, PostgreSQL, MongoDB, Firebase, Supabase"
+    },
+    {
+        "skill": "DevOps",
+        "value": 65,
+        "fullMark": 100,
+        "description": "Linux, Git, Docker, Jenkins, Kubernetes, Azure, Netlify, Postman, Nginx"
+    },
+    {
+        "skill": "CS Fundamentals",
+        "value": 80,
+        "fullMark": 100,
+        "description": "C/C++, Java DSA, OOP, Operating Systems, Networking, System Design (HLD/LLD)"
+    },
+    {
+        "skill": "Problem Solving",
+        "value": 85,
+        "fullMark": 100,
+        "description": "LeetCode, Codeforces, CodeChef, AtCoder"
+    }
+]

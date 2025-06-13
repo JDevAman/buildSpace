@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "role": "Software Engineer - Integrations",
+        "company": "Strada Global",
+        "website": "https://stradaglobal.com",
+        "period": "Jul 2024 - Present",
+        "details": [
+            "Develop backend services using Java and Groovy for integration solutions.",
+            "Delivered end-to-end integration implementations leveraging SAP CPI and SuccessFactors.",
+            "Collaborated with cross-functional teams to architect scalable and robust solutions."
+        ]
+    },
+    {
+        "id": 2,
+        "role": "Software Engineer Intern",
+        "company": "AryaTech Platforms",
+        "website": "https://arya.ag",
+        "period": "Jan 2024 - Apr 2024",
+        "details": [
+            "Developed full-stack applications using React and Spring Boot.",
+            "Created reusable React components to enhance UI consistency and maintainability.",
+            "Led proof-of-concept implementation of OpenTelemetry for frontend performance monitoring."
+        ]
+    },
+    {
+        "id": 3,
+        "role": "Software Developer Intern",
+        "company": "Captiosus Software Solutions",
+        "website": "",
+        "period": "Jun 2023 - Dec 2023",
+        "details": [
+            "Delivered multiple client projects utilizing Angular, Node.js, Azure, and Firebase.",
+            "Rebuilt the frontend from scratch, implementing optimized Firebase queries with indexing.",
+            "Implemented Azure Functions to improve scalability and reduce operational costs."
+        ]
+    }
+]

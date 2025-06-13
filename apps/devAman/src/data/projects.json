@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "title": "ITASC",
+        "techStack": [
+            "React",
+            "Redux",
+            "NodeJS",
+            "ExpressJS",
+            "MongoDB",
+            "TailWindUI"
+        ],
+        "description": [
+            "Built a cloud-based note-taking application with comprehensive CRUD (Create, Read, Update, Delete) functionality.",
+            "Implemented robust JWT (JSON Web Token) authentication for secure user sessions and data integrity.",
+            "Designed to support secure storage and efficient retrieval for over 1,000 daily active users."
+        ],
+        "projectUrl": null,
+        "githubUrl": "https://github.com/JDevAman/lofidoro-timer",
+        "image": "/static/itasc-preview.png"
+    },
+    {
+        "id": 2,
+        "title": "LOFIDORO TIMER",
+        "techStack": [
+            "HTML/CSS",
+            "JAVASCRIPT"
+        ],
+        "description": [
+            "Created a dedicated timer application designed for focused work sessions, integrated with curated lo-fi music.",
+            "Achieved an impressive 80% user satisfaction rating on its intuitive UI/UX experience during initial testing."
+        ],
+        "projectUrl": "https://lofidoro.devaman.space/",
+        "githubUrl": "https://github.com/JDevAman/lofidoro-timer",
+        "futurePlans": [
+            "Scheduled for a complete rebuild using React for improved maintainability and scalability.",
+            "Future integration with Spotify API planned to offer a wider range of music streaming options."
+        ],
+        "image": "/static/lofidoro-preview.png"
+    }
+]

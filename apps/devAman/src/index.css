@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+:root {
+  /* Colors */
+  --color-background-dark: #1E1E1E;
+  /* Background dark */
+  --color-text-main: #E0E0E0;
+  /* Main text */
+  --color-text-heading: #FFFFFF;
+  /* Headings */
+  --color-accent-red: #A02020;
+  /* Accent red */
+  --color-accent-red-hover: #C03030;
+  /* Accent red hover */
+  --color-border-gray: #808080;
+  /* Borders */
+  --color-card-background: #3A3A3A;
+  /* Card bg */
+  --color-loader-bar-bg: #4B5563;
+  /* Loader bar */
+
+  /* Fonts */
+  --font-header-orbitron: 'Orbitron', sans-serif;
+  --font-header-bebas: 'Bebas Neue', cursive;
+  --font-body: 'Inter', 'Open Sans', sans-serif;
+
+  /* Font Sizes */
+  --font-size-base: 1rem;
+  /* 16px base */
+  --font-size-lg: 1.125rem;
+  /* 18px large */
+  --font-size-xl: 1.5rem;
+  /* 24px xl */
+  --font-size-2xl: 2rem;
+  /* 32px 2xl */
+  --font-size-3xl: 3rem;
+  /* 48px 3xl */
+}
+
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.custom-swiper .swiper-pagination-bullet {
+  background-color: #FFFFFF; 
+  opacity: 0.6;
+}
+
+/* Active bullet */
+.custom-swiper .swiper-pagination-bullet-active {
+  background-color: #dc2626;
+  opacity: 1;
+}
