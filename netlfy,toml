@@ -1,0 +1,4 @@
+[build]
+base = "apps/devAman"
+publish = "dist"
+command = "pnpm install && pnpm run build"
