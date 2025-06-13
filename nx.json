@@ -1,22 +1,7 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "npmScope": ".",
   "affected": {
     "defaultBase": "master"
-  },
-  "tasksRunnerOptions": {
-    "default": {
-      "runner": "nx-cloud",
-      "options": {
-        "cacheableOperations": [
-          "build",
-          "lint",
-          "test",
-          "e2e"
-        ],
-        "accessToken": "YWY1ZGNiYWQtNWVkNi00MjQyLWE4ZjAtMTUzMDI3OWM3ZTk4fHJlYWQtd3JpdGU="
-      }
-    }
   },
   "targetDefaults": {
     "build": {
@@ -26,7 +11,17 @@
       "inputs": [
         "production",
         "^production"
-      ]
+      ],
+      "cache": true
+    },
+    "lint": {
+      "cache": true
+    },
+    "test": {
+      "cache": true
+    },
+    "e2e": {
+      "cache": true
     }
   },
   "namedInputs": {
@@ -38,5 +33,6 @@
       "default"
     ],
     "sharedGlobals": []
-  }
+  },
+  "nxCloudAccessToken": "YWY1ZGNiYWQtNWVkNi00MjQyLWE4ZjAtMTUzMDI3OWM3ZTk4fHJlYWQtd3JpdGU="
 }
